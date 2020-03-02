@@ -16,10 +16,12 @@
 <body class="h-100">
 <div class="container-fluid">
     <div class="row">
-        @include('skateboards/_partials/header')
         @include('skateboards/_partials/sidebar')
+        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+        @include('skateboards/_partials/header')
         @yield('content')
         @include('skateboards/_partials/footer')
+        </main>
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
