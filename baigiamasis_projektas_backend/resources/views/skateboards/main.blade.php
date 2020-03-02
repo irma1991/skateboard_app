@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision</title>
+    <title>Skateboard app</title>
     <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -16,24 +16,10 @@
 <body class="h-100">
 <div class="container-fluid">
     <div class="row">
-        <!-- Main Sidebar -->
-    @include('skateboards/_partials/sidebar')
-        <!-- End Main Sidebar -->
-        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-            <!-- / .main-navbar -->
-            <div class="main-content-container container-fluid px-4">
-                <!-- Page Header -->
-                @include('skateboards/_partials/header')
-                <div class="page-header row no-gutters py-4">
-                    <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-                        <span class="text-uppercase page-subtitle">Dashboard</span>
-                        <h3 class="page-title">Blog Overview</h3>
-                    </div>
-                </div>
-                <!-- End Page Header -->
-            </div>
-            @include('skateboards/_partials/footer')
-        </main>
+        @include('skateboards/_partials/header')
+        @include('skateboards/_partials/sidebar')
+        @yield('content')
+        @include('skateboards/_partials/footer')
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

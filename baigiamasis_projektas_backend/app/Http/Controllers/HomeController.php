@@ -23,6 +23,26 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('skateboards.main');
+        return view('skateboards.pages.home');
+    }
+
+    public function addCategory(){
+        return view('skateboards.pages.add_category');
+    }
+
+    public function addProduct(){
+        return view('skateboards.pages.add_product');
+    }
+
+    public function manageCategory(){
+        return view('skateboards.pages.category_management');
+    }
+
+    public function manageProduct(){
+        return view('skateboards.pages.product_management');
+    }
+
+    public function manageOrders(){
+        return view('skateboards.pages.orders_management');
     }
 }

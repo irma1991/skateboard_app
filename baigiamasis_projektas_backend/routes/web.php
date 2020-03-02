@@ -14,3 +14,8 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index');
+Route::get('/add_category/', 'HomeController@addCategory');
+Route::get('/add_product/', 'HomeController@addProduct');
+Route::get('/category_management/', 'HomeController@manageCategory');
+Route::get('/product_management/', 'HomeController@manageProduct');
+Route::get('/orders_management/', 'HomeController@manageOrders');

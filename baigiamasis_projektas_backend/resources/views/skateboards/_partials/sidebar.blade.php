@@ -24,37 +24,37 @@
     <div class="nav-wrapper">
         <ul class="nav flex-column">
             <li class="nav-item">
-                <a class="nav-link active" href="index.html">
+                <a class="nav-link active" href="/">
                     <i class="material-icons">edit</i>
                     <span>Pagrindinis</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="add-new-post.html">
+                <a class="nav-link " href="/add_category/">
                     <i class="material-icons">note_add</i>
                     <span>Pridėti kategoriją</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="add-new-post.html">
+                <a class="nav-link " href="/add_product/">
                     <i class="material-icons">note_add</i>
                     <span>Pridėti produktą</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tables.html">
+                <a class="nav-link " href="/category_management/">
                     <i class="material-icons">table_chart</i>
                     <span>Kategorijų valdymas</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tables.html">
+                <a class="nav-link " href="/product_management/">
                     <i class="material-icons">table_chart</i>
                     <span>Produktų valdymas</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tables.html">
+                <a class="nav-link " href="/orders_management/">
                     <i class="material-icons">table_chart</i>
                     <span>Užsakymų valdymas</span>
                 </a>
