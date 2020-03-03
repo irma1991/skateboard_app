@@ -61,4 +61,34 @@ class ProductController extends Controller
     public function error(){
         return view('skateboards.pages.error');
     }
+
+    public function productUdpdateDb(Product $product, Request $request){
+        $validateData = $request->validate([
+            'category' => 'required',
+            'name' => 'required',
+            'description' => 'required',
+            'image' => 'mimes:jfif,jpeg,jpg,png,gif|max:1000',
+            'price' => 'required',
+            'quantity' => 'required'
+        ]);
+
+        Product::where('id', request('id'))->update(
+            ['catId' => request('category'),
+                'name' => request('name'),
+                'description' => request('description'),
+                'price' => request('price'),
+                'quantity' => request('quantity')
+            ]);
+
+        if($request->hasFile('image')){
+            File::delete('../storage/app/public/'.$product->img);
+            $path = $request->file('image')->store('public/images');
+            $fileName = str_replace('public/', "", $path);
+            Product::where('id', $product->id)->update([
+                'img' => $fileName
+            ]);
+        }
+
+        return redirect('/product_management');
+    }
 }

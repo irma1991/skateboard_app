@@ -24,4 +24,5 @@ Route::get('/product_management/', 'ProductController@productManagement');
 Route::get('/product_delete/{product}', 'ProductController@productDelete');
 Route::get('/product_update/{product}', 'ProductController@productUpdate');
 Route::get('/error/', 'ProductController@error');
+Route::post('/product_update_db/{product}', 'ProductController@productUdpdateDb');
 Route::get('/orders_management/', 'HomeController@manageOrders');

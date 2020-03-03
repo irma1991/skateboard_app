@@ -1,4 +1,4 @@
-@extends('skelbimai/main')
+@extends('skateboards/main')
 @section('content')
     <div class="site-section bg-light">
         <div class="container">
