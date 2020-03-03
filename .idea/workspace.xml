@@ -2,139 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53563d4e-eb39-4700-837e-89aac6c3f508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/category_management.blade.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/category_management.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/skateboard_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skateboard_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/product_management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/product_management.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/05/05ad6731465c0e27e8e817b0886ceb31d1e05ac522f7bb8ab0c722d342b2e455.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/05/05ad6731465c0e27e8e817b0886ceb31d1e05ac522f7bb8ab0c722d342b2e455.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/0f/0fceafffb98549c0efce4a9a3cd6d303b6804df0a46d3f3efc6b449163dd9c7a.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/0f/0fceafffb98549c0efce4a9a3cd6d303b6804df0a46d3f3efc6b449163dd9c7a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/10/10c72c39cd02a58eb04dc88ef10c4fcf93166acb002a0925eb30db364c44f1d5.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/10/10c72c39cd02a58eb04dc88ef10c4fcf93166acb002a0925eb30db364c44f1d5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/1a/1a252bbb81ec9c047fc0ea8e9b6a10f55e0d33f37616988384644fef30a46c75.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/1a/1a252bbb81ec9c047fc0ea8e9b6a10f55e0d33f37616988384644fef30a46c75.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/1d/1da45e8aa0465bec769fff74cd812af91199a0218e000af0be9b94b44a56cc31.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/1d/1da45e8aa0465bec769fff74cd812af91199a0218e000af0be9b94b44a56cc31.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/1e/1e5091e3ea38f3865373f9410368164ddb6eb0834b3f9665a0c279d4a0f1f0ed.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/1e/1e5091e3ea38f3865373f9410368164ddb6eb0834b3f9665a0c279d4a0f1f0ed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/27/274000756ed9ae887c8841deeea4b0d4ccc88188600a26144bf8e66cbb79dc50.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/27/274000756ed9ae887c8841deeea4b0d4ccc88188600a26144bf8e66cbb79dc50.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/29/29b283ca019d81da48462fc3fc3b13df910d3a8f6c33ca9056cd61ce396783ff.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/29/29b283ca019d81da48462fc3fc3b13df910d3a8f6c33ca9056cd61ce396783ff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/31/3167aa94fc2b5d9bb1fffb5eb89530b3bbf1a8b9f34d1da24693f698b4d5ca4e.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/31/3167aa94fc2b5d9bb1fffb5eb89530b3bbf1a8b9f34d1da24693f698b4d5ca4e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/34/34273d293c315f66da49ed1908839fd84e4f3644f9ed599ccbcd89de9f4934c9.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/34/34273d293c315f66da49ed1908839fd84e4f3644f9ed599ccbcd89de9f4934c9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/34/34665472365fb097360df01c0154a7b3cc629e5de8f4af2fe0ac34cf0bcddc64.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/34/34665472365fb097360df01c0154a7b3cc629e5de8f4af2fe0ac34cf0bcddc64.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/43/4382c077f009999efaa33bbb061042c14d73f8a31fed6483de05889552ce1c5d.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/43/4382c077f009999efaa33bbb061042c14d73f8a31fed6483de05889552ce1c5d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/43/43cd04f09538f9b67db51dc0091b119a42967d22ef668495481b19aacd180026.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/43/43cd04f09538f9b67db51dc0091b119a42967d22ef668495481b19aacd180026.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/47/47d3b6b9cbb4f6d6892d689e329b20706b021af811f45a430904a64f89520bbf.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/47/47d3b6b9cbb4f6d6892d689e329b20706b021af811f45a430904a64f89520bbf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/4e/4e99f83b49b94f89828c467d73f7729446e9b553864b4e7bba2db3bc1434df74.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/4e/4e99f83b49b94f89828c467d73f7729446e9b553864b4e7bba2db3bc1434df74.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/5b/5b76192ce1f52a71918385ad9ca29df3d5c4abe8d541e446a4987dfbda8f15ba.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/5b/5b76192ce1f52a71918385ad9ca29df3d5c4abe8d541e446a4987dfbda8f15ba.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/60/60a9d4ca2c1733c12a7b80786d3149959d9bcd57d2c4fe93fda147923aa251eb.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/60/60a9d4ca2c1733c12a7b80786d3149959d9bcd57d2c4fe93fda147923aa251eb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/60/60b058ea5908758ccaa92e2759a4ffe3bcf2d9944d8d1652790ce5044cb2e342.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/60/60b058ea5908758ccaa92e2759a4ffe3bcf2d9944d8d1652790ce5044cb2e342.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/tmp/twig/63/638e1599e869649c2d9660d6ce4683aa6599fd1de57f808cb2b6000b5a2f6750.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/tmp/twig/63/638e1599e869649c2d9660d6ce4683aa6599fd1de57f808cb2b6000b5a2f6750.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-profile-lite.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/user-profile-lite.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#1;n#div#1;n#div#2;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_product.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="39" column="90" lean-forward="false" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020_03_03_111945_create_products_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_111945_create_products_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/db/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/.env" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/footer.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/header.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_111226_create_categories_table.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_111945_create_products_table.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Category.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Product.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Order.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/category_management.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/baigiamasis_projektas_backend/node_modules" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/db/vendor/symfony/expression-language" />
       <path value="$PROJECT_DIR$/db/vendor/symfony/polyfill-util" />
@@ -179,161 +87,25 @@
   </component>
   <component name="ProjectId" id="1YaIHW9iIGJ4XaIYGYGEtyO6r7Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="HTML" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skateboards" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skateboards" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/laravel_php_first_website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel_php_first_website" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Irma\skateboard_app\baigiamasis_projektas_backend" />
+      <recent name="C:\Users\Irma\skateboard_app\baigiamasis_projektas_backend\vendor" />
       <recent name="C:\Users\moksleivis\skateboard_app\baigiamasis_projektas_backend\public" />
       <recent name="C:\Users\moksleivis\skateboard_app\db" />
       <recent name="C:\Users\moksleivis\skateboard_app\baigiamasis_projektas_backend\assets" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -346,9 +118,6 @@
         </serviceView>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -363,392 +132,26 @@
       <workItem from="1583131303295" duration="3735000" />
       <workItem from="1583135792697" duration="5366000" />
       <workItem from="1583230183077" duration="11234000" />
+      <workItem from="1583265680123" duration="7000" />
+      <workItem from="1583265713741" duration="3572000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20335000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="466" key="FileChooserDialogImpl" timestamp="1583178440380">
+    <state x="590" y="466" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583269084599">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="640" y="466" key="FileChooserDialogImpl/0.0.3440.1410@0.0.3440.1410" timestamp="1583178440380" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/errors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16227">
-          <caret line="601" column="7" lean-forward="true" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="601" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/errors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15388">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blader.php" />
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/add-new-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6210">
-          <caret line="374" column="0" lean-forward="false" selection-start-line="364" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_111226_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/category_management.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/assets/admin/HTML/user-profile-lite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#2;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_111945_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" column="90" lean-forward="false" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <state x="590" y="466" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1583269084599" />
+    <state x="640" y="466" key="FileChooserDialogImpl" timestamp="1583268096164">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="640" y="466" key="FileChooserDialogImpl/0.0.3440.1410@0.0.3440.1410" timestamp="1583268096164" />
+    <state x="575" y="532" key="com.intellij.ide.util.TipDialog" timestamp="1583265683165">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="575" y="532" key="com.intellij.ide.util.TipDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1583265683165" />
   </component>
 </project>
