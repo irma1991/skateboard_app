@@ -26,18 +26,6 @@ class HomeController extends Controller
         return view('skateboards.pages.home');
     }
 
-    public function addCategory(){
-        return view('skateboards.pages.add_category');
-    }
-
-    public function addProduct(){
-        return view('skateboards.pages.add_product');
-    }
-
-    public function manageCategory(){
-        return view('skateboards.pages.category_management');
-    }
-
     public function manageProduct(){
         return view('skateboards.pages.product_management');
     }
