@@ -47,9 +47,9 @@
                                 </div>
                                 <div class="modal-body">
                                     <div>
-                                        <a class="dropdown-item active" href="#">{{ $order->orderStatus }}</a>
-                                        <a class="dropdown-item" name ="processing" href="#">Processing</a>
-                                        <a class="dropdown-item" name ="canceled" href="#">Canceled</a>
+                                        <a class="dropdown-item active" name="orderStatus" href="#">{{ $order->orderStatus }}</a>
+                                        <a class="dropdown-item" name="orderStatus" href="#">Processing</a>
+                                        <a class="dropdown-item" name="orderStatus" href="#">Canceled</a>
                                     </div>
                                 </div>
                                 <div class = "modal-footer">

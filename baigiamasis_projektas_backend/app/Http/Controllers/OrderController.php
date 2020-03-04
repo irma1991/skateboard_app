@@ -19,21 +19,14 @@ class OrderController extends Controller
 
     public function orderStatusUpdate(Order $order, Request $request){
         $validateData = $request->validate([
-            'id' => 'required',
-            'buyerName' => 'required',
-            'buyerSurname' => 'required',
-            'buyerAddress' => 'required',
             'orderStatus' => 'required',
-            'productId' => 'required',
-            'productQty' => 'required',
-            'OrderSum' => 'required',
+
         ]);
 
-        Order::where('id', request('id'))->update(
-            ['orderStatus' => request('processing'),
-                'orderStatus' => request('paid'),
-                'orderStatus' => request('canceled')
-            ]);
+        Order::where('id', $order->id)->update
+        (['orderStatus' => request('orderStatus')
+
+        ]);
 
         return redirect('/orders_management');
     }

@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="53563d4e-eb39-4700-837e-89aac6c3f508" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/add_product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/_partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/product_management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/product_management.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/product_update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/product_update.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,7 @@
       <workItem from="1583230183077" duration="11234000" />
       <workItem from="1583265680123" duration="7000" />
       <workItem from="1583265713741" duration="5131000" />
-      <workItem from="1583341539937" duration="8818000" />
+      <workItem from="1583341539937" duration="11044000" />
     </task>
     <servers />
   </component>
@@ -133,5 +129,16 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="575" y="532" key="com.intellij.ide.util.TipDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1583341697990" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/home.blade.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
