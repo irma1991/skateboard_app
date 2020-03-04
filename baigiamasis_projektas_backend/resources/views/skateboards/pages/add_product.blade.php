@@ -1,6 +1,6 @@
 @extends('skateboards/main')
 @section('content')
-    <div class="col-lg-8">
+    <div class="col-lg-8 container">
         <div class="card card-small mb-4">
             <div class="card-header border-bottom">
                 <h6 class="m-0">Add product</h6>

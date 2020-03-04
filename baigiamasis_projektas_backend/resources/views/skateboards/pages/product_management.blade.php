@@ -31,7 +31,6 @@
                                     <td>{{ $product->quantity }}</td>
                                     <td><a class = "btn btn-danger" href = "/product_update/{{$product->id}}">Redaguoti</a></td>
                                     <td><a class = "btn btn-danger" href = "/product_delete/{{$product->id}}">Trinti</a></td>
-
                             </tr>
                             @endforeach
                         </tbody>

@@ -14,7 +14,7 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index');
-Route::get('/add_category/', 'CategoryController@categoryForm');// parodo forma
+Route::get('/add_category/', 'CategoryController@categoryForm');
 Route::post('/store_category/', 'CategoryController@storeCategory'); // siuncia duomenis i db
 Route::get('/category_management/', 'CategoryController@categoryManagement');
 Route::get('/category_delete/{category}', 'CategoryController@categoryDelete');
@@ -24,5 +24,6 @@ Route::get('/product_management/', 'ProductController@productManagement');
 Route::get('/product_delete/{product}', 'ProductController@productDelete');
 Route::get('/product_update/{product}', 'ProductController@productUpdate');
 Route::get('/error/', 'ProductController@error');
-Route::post('/product_update_db/{product}', 'ProductController@productUdpdateDb');
-Route::get('/orders_management/', 'HomeController@manageOrders');
+Route::post('/product_update_db/{product}', 'ProductController@productUdpdate2');// siuncia duomenis i db
+Route::get('/orders_management/', 'OrderController@orderManagement');
+Route::post('/order_status_update/{order}', 'OrderController@orderStatusUpdate');// siuncia duomenis i db

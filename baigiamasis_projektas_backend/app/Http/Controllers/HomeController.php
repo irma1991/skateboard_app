@@ -25,8 +25,4 @@ class HomeController extends Controller
     {
         return view('skateboards.pages.home');
     }
-
-    public function manageOrders(){
-        return view('skateboards.pages.orders_management');
-    }
 }

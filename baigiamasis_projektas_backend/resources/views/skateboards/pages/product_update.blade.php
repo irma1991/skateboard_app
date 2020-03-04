@@ -1,64 +1,48 @@
 @extends('skateboards/main')
 @section('content')
-<div class="row">
-    <div class="col-md mb-5"  data-aos="fade">
-        <form method = "POST" action="/product_update_db/{{$product->id}}" enctype="multipart/form-data" class="p-5 bg-white">
-            @csrf
-            <input type="hidden" name="id" value="{{$product->id}}">
-            <div class="row form-group">
-                <div class="col-md-12">
-                    <label class="text-black" for="email">Category ID</label>
-                    <input type="text" id="category" name="category" class="form-control" value="{{ $product->catId }}">
+<div class="col-lg-8 container">
+    <div class="card card-small mb-4">
+        <div class="card-header border-bottom">
+            <h6 class="m-0">Update product</h6>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item p-3">
+                <div class="row">
+                    <div class="col">
+                        <form method = "POST" action="/product_update_db/{{$product->id}}" enctype="multipart/form-data">
+                            @csrf
+                            <input type="hidden" name="id" value="{{$product->id}}">
+                            <div class="form-group">
+                                <label class="text-black" for="email">Category ID</label>
+                                <input type="text" id="category" name="category" class="form-control" value="{{ $product->catId }}">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-black" for="email">Prekes pavadinimas</label>
+                                <input type="text" id="title" name="name" class="form-control" value="{{ $product->name }}">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-black" for="message">Prekes Aprasymas</label>
+                                <textarea name="description" cols="30" rows="7" class="form-control">{{ $product->description }}</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-black" for="message">Prekes nuotrauka</label>
+                                <input type="file" id="image" name="image" class="form-control" value="{{ $product->img }}">
+                                <img src="{{asset('storage/'.$product->img)}}" alt="Image" class="img-fluid rounded">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-black" for="subject">Prekes Kaina</label>
+                                <input type="number" id="price" name="price" class="form-control" value="{{ $product->price }}">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-black" for="subject">Prekes Kiekis</label>
+                                <input type="text" id="location" name="quantity" class="form-control" value="{{ $product->quantity }}">
+                            </div>
+                            <button type="submit" name="submit" class="btn btn-accent">Patvirtinti</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="row form-group">
-
-                <div class="col-md-12">
-                    <label class="text-black" for="email">Skelbimo pavadinimas</label>
-                    <input type="text" id="title" name="name" class="form-control" value="{{ $product->name }}">
-                </div>
-            </div>
-
-            <div class="row form-group">
-                <div class="col-md-12">
-                    <label class="text-black" for="message">Aprasymas</label>
-                    <textarea name="description" cols="30" rows="7" class="form-control">{{ $product->description }}</textarea>
-                </div>
-            </div>
-
-            <div class="row form-group">
-
-                <div class="col-md-12">
-                    <label class="text-black" for="email">Nuotraukos</label>
-                    <input type="file" id="image" name="image" class="form-control" value="{{ $product->img }}">
-                    <img src="{{asset('storage/'.$product->img)}}" alt="Image" class="img-fluid rounded">
-                </div>
-            </div>
-
-            <div class="row form-group">
-
-                <div class="col-md-12">
-                    <label class="text-black" for="subject">Kaina</label>
-                    <input type="number" id="price" name="price" class="form-control" value="{{ $product->price }}">
-                </div>
-            </div>
-
-            <div class="row form-group">
-
-                <div class="col-md-12">
-                    <label class="text-black" for="subject">Kiekis</label>
-                    <input type="text" id="location" name="quantity" class="form-control" value="{{ $product->quantity }}">
-                </div>
-            </div>
-
-            <div class="row form-group">
-                <div class="col-md-12">
-                    <input type="submit" id = "submit" name="submit" value="Patvirtinti" class="btn btn-primary py-2 px-4 text-white">
-                </div>
-            </div>
-
-
-        </form>
+            </li>
+        </ul>
     </div>
 </div>
 @stop

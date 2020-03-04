@@ -53,16 +53,15 @@ class ProductController extends Controller
     }
 
     public function productUpdate(Product $product){
-        if(Gate::allows('update-post', $product)){
-            return view('skateboards.pages.product_update', compact('product'));
-        } return redirect('/error');
+        $products = Product::all();
+        return view('skateboards.pages.product_update', compact('product'));
     }
 
     public function error(){
         return view('skateboards.pages.error');
     }
 
-    public function productUdpdateDb(Product $product, Request $request){
+    public function productUdpdate2(Product $product, Request $request){
         $validateData = $request->validate([
             'category' => 'required',
             'name' => 'required',
@@ -85,7 +84,7 @@ class ProductController extends Controller
             $path = $request->file('image')->store('public/images');
             $fileName = str_replace('public/', "", $path);
             Product::where('id', $product->id)->update([
-                'img' => $fileName
+                'image' => $fileName
             ]);
         }
 
