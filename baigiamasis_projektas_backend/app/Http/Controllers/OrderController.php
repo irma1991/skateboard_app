@@ -22,7 +22,7 @@ class OrderController extends Controller
             'orderStatus' => 'required',
 
         ]);
-
+//        dd($order);
         Order::where('id', $order->id)->update
         (['orderStatus' => request('orderStatus')
 

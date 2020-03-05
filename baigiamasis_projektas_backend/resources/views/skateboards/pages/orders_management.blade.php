@@ -32,14 +32,15 @@
                                 <td>{{ $order->productQty }}</td>
                                 <td>{{ $order->OrderSum }}</td>
                                 <td>{{ $order->orderStatus }}</td>
-                                <td><button type="button" name="submit" class="btn btn-danger" data-toggle="modal" data-target="#ticket">Keisti uzsakymo busena</button></td>
+                                <td><button type="button" name="submit" class="btn btn-danger" data-toggle="modal" data-target="#order{{$order->id}}">Keisti uzsakymo busena</button></td>
                         </tr>
                         @endforeach
                         </tbody>
                     </table>
+                    @foreach($orders as $order)
                     <form method = "POST" action="/order_status_update/{{$order->id}}" enctype="multipart/form-data">
                         @csrf
-                    <div class="modal fade bd-example-modal-lg" id = "ticket" tabindex="-1" role="dialog">
+                    <div class="modal fade bd-example-modal-lg" id = "order{{$order->id}}" tabindex="-1" role="dialog">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -47,9 +48,12 @@
                                 </div>
                                 <div class="modal-body">
                                     <div>
-                                        <a class="dropdown-item active" name="orderStatus" href="#">{{ $order->orderStatus }}</a>
-                                        <a class="dropdown-item" name="orderStatus" href="#">Processing</a>
-                                        <a class="dropdown-item" name="orderStatus" href="#">Canceled</a>
+                                        <input type="radio" name="orderStatus" value="processing">
+                                        <label for="male">Processing</label><br>
+                                        <input type="radio" name="orderStatus" value="canceled">
+                                        <label for="male">Canceled</label><br>
+                                        <input type="radio" name="orderStatus" value="paid">
+                                        <label for="male">Paid</label><br>
                                     </div>
                                 </div>
                                 <div class = "modal-footer">
@@ -60,6 +64,7 @@
                         </div>
                     </div>
                     </form>
+                    @endforeach
                 </div>
             </div>
         </div>

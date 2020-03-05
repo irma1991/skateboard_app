@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Product;
+use App\Order;
 
 class ApiController extends Controller
 {
@@ -18,6 +19,16 @@ class ApiController extends Controller
     }
 
     public function storeOrders(Request $request){
+        Order::create([
+            'buyerName' => request('buyerName'),
+            'buyerSurname' => request('buyerSurname'),
+            'buyerAddress' => request('buyerAddress'),
+            'productId' => request('productId'),
+            'productQty' => request('productQty'),
+            'OrderSum' => request('OrderSum')
+        ]);
+
         return response($request);
     }
+
 }
