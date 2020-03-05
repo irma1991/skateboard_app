@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Products from "../products/Products";
 import Orders from "../orders/Orders";
+import Navigation from "../navigation/Navigation";
+import Footer from "../footer/Footer";
 
 class Main extends Component{
     constructor(props) {
@@ -22,16 +24,8 @@ class Main extends Component{
     render(){
         return(
             <main>
-                <div className="row card-row">
-                    <div className="card container card-container">
-                        <div className="card-header">
-                            filmu paieska
-                        </div>
-                        <div className="card-body">
-                            <Products products = {this.state.allProducts}/>
-                            <Orders/>
-                        </div>
-                    </div>
+                <div class = "container">
+                <Products products = {this.state.allProducts}/>
                 </div>
             </main>
         );
