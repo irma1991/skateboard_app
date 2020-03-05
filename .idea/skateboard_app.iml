@@ -43,5 +43,79 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/db/vendor/bacon/bacon-qr-code" />
+          <root url="file://$MODULE_DIR$/db/vendor/composer" />
+          <root url="file://$MODULE_DIR$/db/vendor/dasprid/enum" />
+          <root url="file://$MODULE_DIR$/db/vendor/google/recaptcha" />
+          <root url="file://$MODULE_DIR$/db/vendor/paragonie/constant_time_encoding" />
+          <root url="file://$MODULE_DIR$/db/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpmyadmin/motranslator" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpmyadmin/shapefile" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpmyadmin/sql-parser" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpseclib/phpseclib" />
+          <root url="file://$MODULE_DIR$/db/vendor/pragmarx/google2fa" />
+          <root url="file://$MODULE_DIR$/db/vendor/pragmarx/google2fa-qrcode" />
+          <root url="file://$MODULE_DIR$/db/vendor/psr/cache" />
+          <root url="file://$MODULE_DIR$/db/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/db/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/db/vendor/samyoul/u2f-php-server" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/cache" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/cache-contracts" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/config" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/dependency-injection" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/expression-language" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/filesystem" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-ctype" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/service-contracts" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/var-exporter" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/db/vendor/tecnickcom/tcpdf" />
+          <root url="file://$MODULE_DIR$/db/vendor/twig/extensions" />
+          <root url="file://$MODULE_DIR$/db/vendor/twig/twig" />
+          <root url="file://$MODULE_DIR$/db/vendor/williamdes/mariadb-mysql-kbs" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/db/vendor/bacon/bacon-qr-code" />
+          <root url="file://$MODULE_DIR$/db/vendor/composer" />
+          <root url="file://$MODULE_DIR$/db/vendor/dasprid/enum" />
+          <root url="file://$MODULE_DIR$/db/vendor/google/recaptcha" />
+          <root url="file://$MODULE_DIR$/db/vendor/paragonie/constant_time_encoding" />
+          <root url="file://$MODULE_DIR$/db/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpmyadmin/motranslator" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpmyadmin/shapefile" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpmyadmin/sql-parser" />
+          <root url="file://$MODULE_DIR$/db/vendor/phpseclib/phpseclib" />
+          <root url="file://$MODULE_DIR$/db/vendor/pragmarx/google2fa" />
+          <root url="file://$MODULE_DIR$/db/vendor/pragmarx/google2fa-qrcode" />
+          <root url="file://$MODULE_DIR$/db/vendor/psr/cache" />
+          <root url="file://$MODULE_DIR$/db/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/db/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/db/vendor/samyoul/u2f-php-server" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/cache" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/cache-contracts" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/config" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/dependency-injection" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/expression-language" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/filesystem" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-ctype" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/service-contracts" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/var-exporter" />
+          <root url="file://$MODULE_DIR$/db/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/db/vendor/tecnickcom/tcpdf" />
+          <root url="file://$MODULE_DIR$/db/vendor/twig/extensions" />
+          <root url="file://$MODULE_DIR$/db/vendor/twig/twig" />
+          <root url="file://$MODULE_DIR$/db/vendor/williamdes/mariadb-mysql-kbs" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
