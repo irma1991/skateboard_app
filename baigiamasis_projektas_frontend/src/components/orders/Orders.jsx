@@ -20,27 +20,31 @@ class Orders extends Component {
     }
 
     handleBuyerSurname(event) {
-        this.setState({handleBuyerSurname: event.target.value});
+        this.setState({buyerSurname: event.target.value});
     }
 
     handleBuyerAddress(event) {
-        this.setState({handleBuyerAddress: event.target.value});
+        this.setState({buyerAddress: event.target.value});
     }
 
     handleProductId(event) {
-        this.setState({handleProductId: event.target.value});
+        this.setState({productId: event.target.value});
     }
 
     handleProductQty(event) {
-        this.setState({handleProductQty: event.target.value});
+        this.setState({productQty: event.target.value});
     }
 
     handleOrderSum(event) {
-        this.setState({handleOrderSum: event.target.value});
+        this.setState({OrderSum: event.target.value});
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
+        fetch(`http://skateboard.test/api/store-orders`, {
+            method:'post',
+            headers:{'Content-Type':'application/json'},
+            body:JSON.stringify(this.state)
+        }).then(response => response.json()).then(results => console.log(results));
         event.preventDefault();
     }
 
@@ -50,6 +54,26 @@ class Orders extends Component {
                 <label>
                     Buyer Name:
                     <input type="text" value={this.state.buyerName} onChange={this.handleBuyerName} />
+                </label>
+                <label>
+                    Buyer Surname:
+                    <input type="text" value={this.state.buyerSurname} onChange={this.handleBuyerSurname} />
+                </label>
+                <label>
+                    Buyer Address:
+                    <input type="text" value={this.state.buyerAddress} onChange={this.handleBuyerAddress} />
+                </label>
+                <label>
+                    Product ID:
+                    <input type="text" value={this.state.productId} onChange={this.handleProductId} />
+                </label>
+                <label>
+                    Product Quantity:
+                    <input type="text" value={this.state.productQty} onChange={this.handleProductQty} />
+                </label>
+                <label>
+                    Order Sum:
+                    <input type="text" value={this.state.OrderSum} onChange={this.handleOrderSum} />
                 </label>
                 <input type="submit" value="Submit" />
             </form>

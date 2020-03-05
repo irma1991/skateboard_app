@@ -16,4 +16,8 @@ class ApiController extends Controller
 
         return $products;
     }
+
+    public function storeOrders(Request $request){
+        return response($request);
+    }
 }

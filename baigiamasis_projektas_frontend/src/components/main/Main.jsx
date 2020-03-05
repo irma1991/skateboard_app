@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Products from "../products/Products";
+import Orders from "../orders/Orders";
 
 class Main extends Component{
     constructor(props) {
@@ -28,6 +29,7 @@ class Main extends Component{
                         </div>
                         <div className="card-body">
                             <Products products = {this.state.allProducts}/>
+                            <Orders/>
                         </div>
                     </div>
                 </div>
