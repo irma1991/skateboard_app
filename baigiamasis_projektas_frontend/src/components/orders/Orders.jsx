@@ -3,13 +3,13 @@ import React, {Component} from "react";
 class Orders extends Component {
     constructor(props) {
         super(props);
-        this.state = {buyerName: '', buyerSurname:'', buyerAddress:'', productId:'',
+        const idProduct = localStorage.getItem('id');
+        this.state = {buyerName: '', buyerSurname:'', buyerAddress:'', productId:idProduct,
         productQty:'', OrderSum:''};
 
         this.handleBuyerName = this.handleBuyerName.bind(this);
         this.handleBuyerSurname = this.handleBuyerSurname.bind(this);
         this.handleBuyerAddress = this.handleBuyerAddress.bind(this);
-        this.handleProductId = this.handleProductId.bind(this);
         this.handleProductQty = this.handleProductQty.bind(this);
         this.handleOrderSum = this.handleOrderSum.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -25,10 +25,6 @@ class Orders extends Component {
 
     handleBuyerAddress(event) {
         this.setState({buyerAddress: event.target.value});
-    }
-
-    handleProductId(event) {
-        this.setState({productId: event.target.value});
     }
 
     handleProductQty(event) {
@@ -62,10 +58,6 @@ class Orders extends Component {
                 <label>
                     Buyer Address:
                     <input type="text" value={this.state.buyerAddress} onChange={this.handleBuyerAddress} />
-                </label>
-                <label>
-                    Product ID:
-                    <input type="text" value={this.state.productId} onChange={this.handleProductId} />
                 </label>
                 <label>
                     Product Quantity:

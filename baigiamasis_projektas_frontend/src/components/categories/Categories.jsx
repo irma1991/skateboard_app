@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
-import Products from "../products/Products";
-import Categories from "../categories/Categories";
+import OneCategory from "../oneCategory/OneCategory";
 
-class Main extends Component{
+class Categories extends Component{
     constructor(props) {
         super(props);
-        this.state = {allProducts: [], allCategories: []};
+        this.state = {allCategories: []};
     }
 
     componentDidMount() {
-        fetch(`http://skateboard.test/api/all-products`)
+        fetch(`http://skateboard.test/api/all-categories`)
             .then(response => response.json())
             .then(
                 data=>{
                     this.setState({
-                        allProducts: data
+                        allCategories: data
                     })
                 }
             )
@@ -23,8 +22,6 @@ class Main extends Component{
         return(
             <main>
                 <div class = "container">
-                <Products products = {this.state.allProducts}/>
-                    <Categories categories = {this.state.allCategories}/>
                 </div>
             </main>
         );
@@ -32,4 +29,4 @@ class Main extends Component{
     }
 
 }
-export default Main;
+export default Categories;

@@ -9,6 +9,7 @@ import{
     Switch,
     Route
 } from "react-router-dom";
+import Orders from "../orders/Orders";
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
                             <Main/>
                         </Route>
                         <Route path="/product/:id" component={Product}/>
+                        <Route path="/orders">
+                            <Orders/>
+                        </Route>
                     </Switch>
                 </div>
             </Router>

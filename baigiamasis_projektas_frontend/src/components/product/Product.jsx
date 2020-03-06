@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import{
+    Link
+} from "react-router-dom";
 
 class Product extends Component{
     constructor(props) {
@@ -18,6 +21,7 @@ class Product extends Component{
             )
     }
     render(){
+        const productId = localStorage.setItem('id', this.state.product.id);
         return(
                 <div className = "container">
                     <div className="col-lg-6 portfolio-item">
@@ -25,9 +29,11 @@ class Product extends Component{
                             <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></a>
                             <div className="card-body">
                                 <h4 className="card-title">
+                                    <a href="#">{this.state.product.id}</a>
                                     <a href="#">{this.state.product.name}</a>
                                     <a href="#">{this.state.product.description}</a>
                                     <a href="#">{this.state.product.price}</a>
+                                    <Link to="/orders" class="btn btn-secondary">Uzsakyti</Link>
                                 </h4>
                             </div>
                         </div>

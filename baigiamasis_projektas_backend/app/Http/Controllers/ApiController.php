@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Product;
 use App\Order;
+use App\Category;
 
 class ApiController extends Controller
 {
@@ -33,6 +34,12 @@ class ApiController extends Controller
 
     public function getProductById($id){
         return Product::find($id);
+    }
+
+    public function allCategories(){
+        $categories = Category::all();
+
+        return $categories;
     }
 
 }
