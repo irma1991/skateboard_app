@@ -26,6 +26,7 @@ class Main extends Component{
             <main>
                 <div class = "container">
                 <Products products = {this.state.allProducts}/>
+                    <Orders/>
                 </div>
             </main>
         );

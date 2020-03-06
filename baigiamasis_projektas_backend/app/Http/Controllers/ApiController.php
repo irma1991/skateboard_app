@@ -31,4 +31,8 @@ class ApiController extends Controller
         return response($request);
     }
 
+    public function getProductById($id){
+        return Product::find($id);
+    }
+
 }
